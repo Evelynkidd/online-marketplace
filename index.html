@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/javascript.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="jumbotron" align="center">
+      <h1>G and E's Online Market Place</h1>
+    </div>
+    <div class="container">
+
+      <div>
+
+        <form id="name-address">
+              <input type="radio" name="item" value="item1" >
+              Item1
+              <input type="radio" name="item" value="item2">
+              Item2
+              <input type="radio" name="item" value="item3">
+              Item3
+
+        <div class="form-name">
+          <label for="name">Name</label>
+          <input id="name" class="name" type="text">
+        </div>
+
+        <div class="form-address">
+          <label for="address">Address</label>
+          <input id="address" class="address" type="text">
+        </div>
+
+
+
+        <button type="submit" class="btn">Place Order</button>
+      </form>
+
+      <div id="receipt">
+        <p>
+          Thank you for placing your order <span id="display">
+        </span>! We appreciate your business! Your items will be shipped to the following address:
+      </p>
+        <!-- <h3>
+          <div id="display1">
+        </div> -->
+        <h3 span id="display1"></span></h3>
+        <p>Your order includes:
+          <h4 span id="display2"></span></h4>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  </body>
+</html>

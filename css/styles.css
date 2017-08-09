@@ -1,0 +1,16 @@
+#receipt {
+  display: none;
+}
+
+.btn {
+  background-color: green;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+label {
+  color: green;
+}
